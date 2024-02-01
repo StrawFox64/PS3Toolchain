@@ -21,9 +21,10 @@
 For Debian based distros:
 
 ```bash
-  apt-get install autoconf automake bison flex gcc libelf-dev make \
-    texinfo libncurses5-dev patch python subversion wget zlib1g-dev \
-    libtool libtool-bin python-dev bzip2 libgmp3-dev pkg-config g++ libssl-dev clang
+sudo apt-get install -y autoconf automake bison flex gcc libelf-dev make \
+	texinfo libncurses5-dev patch python2 python-is-python3 subversion wget zlib1g-dev \
+		libtool libtool-bin python2-dev python-dev-is-python3 bzip2 libgmp3-dev pkg-config g++ \
+			libssl-dev clang nvidia-cg-toolkit
 ```
 
 For RedHat distros:
